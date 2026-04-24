@@ -1,0 +1,24 @@
+{
+  "index_filename": "index.md",
+  "readme_filename": "README.md",
+  "log": {
+    "base_dir": "log",
+    "bucket": "monthly",
+    "file_pattern": "{YYYY}/{YYYY-MM}.md"
+  },
+  "linking": {
+    "prefer_markdown_links": true,
+    "update_nearest_index": true
+  },
+  "rules": {
+    "require_log_for_write_ops": true,
+    "index_is_routing_only": true,
+    "log_has_no_index": true,
+    "log_actor_from_git_user_name": true,
+    "log_bucket_uses_submission_date": true,
+    "clone_only_no_archive_download": true,
+    "branch_from_config_or_branch_link": true,
+    "push_requires_pull_rebase_first": true,
+    "allow_custom_dirs": true
+  }
+}

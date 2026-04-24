@@ -1,0 +1,11 @@
+{
+  "wikis": [
+    {
+      "url": "https://git.example.com/example-org/team-wiki.git",
+      "local_dir": "/path/to/local/wiki",
+      "name": "team-wiki",
+      "branch": "main",
+      "description": "示例团队 Wiki 仓库"
+    }
+  ]
+}
